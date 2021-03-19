@@ -17,4 +17,4 @@ jobs:
           fileName: myChangelog.adoc # default `CHANGELOG.adoc`
           noChangelogLabel: my custom label # default `no changelog`
         env:
-          GITHUB_TOKEN: ${{ secrets.ANOTHER_SECRET }}
+          MY_GITHUB_TOKEN: ${{ secrets.ANOTHER_SECRET }}
