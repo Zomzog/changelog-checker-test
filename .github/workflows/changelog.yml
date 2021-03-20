@@ -14,7 +14,8 @@ jobs:
       - name: Changelog check
         uses: Zomzog/changelog-checker@v1.2.0
         with:
-          fileName: CHANGELOG2.adoc # default `CHANGELOG.adoc`
+          fileName: CHANGELOG.adoc # default `CHANGELOG.adoc`
           noChangelogLabel: my custom label # default `no changelog`
+          checkNotification: Pony
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
