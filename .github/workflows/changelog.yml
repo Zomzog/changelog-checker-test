@@ -15,6 +15,6 @@ jobs:
         uses: Zomzog/changelog-checker@v0.0.0_do_not_use
         with:
           fileName: myChangelog.adoc # default `CHANGELOG.adoc`
-          noChangelogLabel: my custom label2 # default `no changelog`
+          noChangelogLabel: my custom label # default `no changelog`
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
